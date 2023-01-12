@@ -14,9 +14,21 @@
 
 <body>
     <!-- Cabeçalho -->
-    <header>
-        <div class="Container">
-
+    <header id="inicio" >
+        <div class="Container Flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <!-- Destaque -->
@@ -24,31 +36,31 @@
         <div class="Container">
             <h1>HTML5 e CSS3</h1>
             <h2>Você faz. Você vê. Você aprende</h2>
+            <a href="https://www.youtube.com/watch?v=M2GjflypG6E&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=15" target="_blank" class="Botao">Saiba +</a>
         </div>
-
     </main>
     <!-- Sobre -->
-    <section>
-        <div class="container">
+    <section id="sobre">
+        <div class="Container">
             <h2>Aprender na pratíca</h2>
         </div>
     </section>
     <!--One page  -->
     <section>
-        <div class="container">
+        <div class="Container">
             <h2>One page site</h2>
         </div>
     </section>
     <!-- Wireframe -->
     <section>
-        <div class="container">
+        <div class="Container">
             <h2>Wireframe</h2>
         </div>
 
     </section>
     <!-- Conteúdo -->
-    <section>
-        <div class="container">
+    <section id="conteudo">
+        <div class="Container">
             <h2>Conteudo</h2>
             <h3>HTML5</h3>
             <h3>Box model CSS</h3>
@@ -57,11 +69,12 @@
 
     </section>
     <!-- Rodapé -->
-    <footer>
-        <div class="container">
+    <footer id="contato">
+        <div class="Container">
 
         </div>
     </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
 </body>
 
 </html>
